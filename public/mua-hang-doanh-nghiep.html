@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dịch Vụ Cung Ứng Văn Phòng Phẩm Cho Doanh Nghiệp (B2B) - SmartDesk</title>
+  <style>
+    :root {
+      --primary: #4338ca;
+      --primary-dark: #3730a3;
+      --text-main: #0f172a;
+      --text-muted: #475569;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --border: #e2e8f0;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    body { background-color: var(--bg); color: var(--text-main); line-height: 1.6; }
+    .container { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+    header { background: #ffffff; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; }
+    .header-inner { display: flex; align-items: center; justify-content: space-between; height: 70px; }
+    .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; font-size: 22px; font-weight: 800; color: #0f172a; }
+    .logo-icon { width: 36px; height: 36px; background: linear-gradient(135deg, #4338ca, #3730a3); color: #fff; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 18px; }
+    .logo span { color: var(--primary); }
+    .nav-links { display: flex; gap: 16px; }
+    .nav-links a { text-decoration: none; color: var(--text-muted); font-weight: 600; font-size: 14px; padding: 8px 12px; border-radius: 6px; }
+    .nav-links a:hover { color: var(--primary); background: #eef2ff; }
+    
+    .hero { background: linear-gradient(135deg, #1e1b4b 0%, #4338ca 100%); color: #ffffff; padding: 48px 32px; border-radius: 16px; margin: 24px 0 36px 0; }
+    .hero-badge { display: inline-block; background: rgba(255,255,255,0.2); padding: 4px 12px; border-radius: 9999px; font-size: 13px; font-weight: 700; margin-bottom: 12px; }
+    .hero h1 { font-size: 32px; font-weight: 800; margin-bottom: 12px; line-height: 1.25; }
+    .hero p { font-size: 16px; opacity: 0.95; max-width: 750px; }
+
+    .content-section { display: flex; flexDirection: column; gap: 28px; margin-bottom: 50px; }
+    .card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 14px; padding: 28px 32px; box-shadow: 0 2px 4px rgba(0,0,0,0.03); margin-bottom: 24px; }
+    .card h2 { font-size: 20px; font-weight: 800; color: var(--primary); margin-bottom: 16px; display: flex; align-items: center; gap: 10px; border-bottom: 2px solid #eef2ff; padding-bottom: 10px; }
+    .card h3 { font-size: 16px; font-weight: 700; margin: 16px 0 8px 0; color: #1e293b; }
+    .card p { font-size: 14.5px; color: var(--text-muted); margin-bottom: 12px; }
+    .card ul { padding-left: 24px; font-size: 14.5px; color: var(--text-muted); margin-bottom: 16px; }
+    .card li { margin-bottom: 8px; }
+
+    .feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 16px; margin: 20px 0; }
+    .feature-card { background: #f8fafc; border: 1px solid var(--border); border-radius: 12px; padding: 22px; text-align: center; }
+    .feature-icon { font-size: 36px; margin-bottom: 10px; }
+    .feature-card h4 { font-size: 16px; font-weight: 700; color: #0f172a; margin-bottom: 6px; }
+    .feature-card p { font-size: 13px; color: var(--text-muted); }
+
+    .form-box { background: #f8fafc; border: 1px solid var(--border); border-radius: 12px; padding: 24px; margin-top: 16px; }
+    .form-group { margin-bottom: 14px; }
+    .form-group label { display: block; font-size: 13px; font-weight: 700; margin-bottom: 6px; color: #1e293b; }
+    .form-control { width: 100%; padding: 10px 14px; border: 1px solid var(--border); border-radius: 8px; font-size: 14px; outline: none; background: #fff; }
+    .form-control:focus { border-color: var(--primary); }
+    .btn-submit { padding: 12px 28px; background: var(--primary); color: #fff; border: none; border-radius: 8px; font-weight: 700; font-size: 15px; cursor: pointer; transition: 0.2s; }
+    .btn-submit:hover { background: var(--primary-dark); }
+
+    footer { background: #0f172a; color: #94a3b8; padding: 40px 0; margin-top: 60px; font-size: 13px; }
+    .footer-inner { display: flex; justify-content: space-between; align-items: center; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container header-inner">
+      <a href="/" class="logo">
+        <div class="logo-icon">📎</div>
+        Smart<span>Desk</span>
+      </a>
+      <div class="nav-links">
+        <a href="/">Trang chủ</a>
+        <a href="/chinh-sach-doi-tra.html">Đổi trả 7 ngày</a>
+        <a href="/chinh-sach-giao-hang.html">Giao hàng</a>
+        <a href="/bao-hanh-chung-tu.html">Bảo hành</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-badge">🏢 GIẢI PHÁP VĂN PHÒNG PHẨM B2B CHUYÊN NGHIỆP</div>
+      <h1>Cung Ứng Văn Phòng Phẩm Toàn Diện Cho Doanh Nghiệp</h1>
+      <p>Đối tác tin cậy của hơn 1.500 doanh nghiệp, trường học, ngân hàng và tập đoàn đa quốc gia tại Việt Nam.</p>
+    </section>
+
+    <div class="content-section">
+      <!-- MỤC 1 -->
+      <article class="card">
+        <h2><span>💎</span> 1. Đặc Quyền Dành Riêng Cho Khách Hàng Doanh Nghiệp</h2>
+        <div class="feature-grid">
+          <div class="feature-card">
+            <div class="feature-icon">🏷️</div>
+            <h4>Chiết Khấu Đến 25%</h4>
+            <p>Bảng giá sỉ trực tiếp từ nhà máy không qua trung gian, tối ưu 15 - 25% chi phí hàng tháng.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">📑</div>
+            <h4>Hóa Đơn Điện Tử VAT</h4>
+            <p>Xuất hóa đơn GTGT đầy đủ, chuẩn thuế điện tử ngay khi bàn giao đơn hàng.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🗓️</div>
+            <h4>Công Nợ 15 - 30 Ngày</h4>
+            <p>Hỗ trợ thanh toán trả chậm cuối tháng đối với khách hàng ký hợp đồng nguyên tắc.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🚚</div>
+            <h4>Giao Hàng Định Kỳ</h4>
+            <p>Lên lịch cấp phát đồ dùng văn phòng đều đặn hàng tuần/tháng theo từng phòng ban.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- MỤC 2 -->
+      <article class="card">
+        <h2><span>📑</span> 2. Danh Mục Cung Cấp Đa Dạng Chuẩn Doanh Nghiệp</h2>
+        <p>SmartDesk đáp ứng 100% nhu cầu trang bị hành chính - văn phòng:</p>
+        <ul>
+          <li><strong>Giấy in văn phòng:</strong> Double A, IK Plus, PaperOne, Supreme, Bãi Bằng định lượng 70gsm, 80gsm đủ khổ A4, A3, A5.</li>
+          <li><strong>Bút viết & Đánh dấu:</strong> Bút bi Thiên Long, bút gel Deli, bút dạ quang highlight, bút lông bảng trắng, bút xóa nước.</li>
+          <li><strong>Lưu trữ tài liệu:</strong> Bìa còng 5cm/7cm, bìa lá, bìa nút, cặp tài liệu, kệ nhựa 3 ngăn, khay mica để bàn.</li>
+          <li><strong>Mực in & Thiết bị:</strong> Hộp mực Laser Canon/HP, ruy băng in kim, máy tính bỏ túi Casio chính hãng, máy bấm kim và đục lỗ công suất lớn.</li>
+        </ul>
+      </article>
+
+      <!-- MỤC 3 -->
+      <article class="card">
+        <h2><span>📋</span> 3. Đăng Ký Nhận Bảng Báo Giá Chiết Khấu Doanh Nghiệp</h2>
+        <p>Hãy để lại thông tin công ty, bộ phận Kinh doanh B2B SmartDesk sẽ gửi bảng báo giá cạnh tranh nhất trong vòng 30 phút:</p>
+
+        <div class="form-box">
+          <form onsubmit="event.preventDefault(); alert('Cảm ơn Quý công ty! Chuyên viên B2B SmartDesk sẽ liên hệ tư vấn trong 30 phút.');">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px;">
+              <div class="form-group">
+                <label>Tên Doanh Nghiệp / Cơ Quan *</label>
+                <input type="text" required class="form-control" placeholder="Công ty TNHH / Cổ phần...">
+              </div>
+              <div class="form-group">
+                <label>Mã Số Thuế (MST)</label>
+                <input type="text" class="form-control" placeholder="0101234567...">
+              </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px;">
+              <div class="form-group">
+                <label>Người Đại Diện Liên Hệ *</label>
+                <input type="text" required class="form-control" placeholder="Họ và tên...">
+              </div>
+              <div class="form-group">
+                <label>Số Điện Thoại Di Động / Zalo *</label>
+                <input type="tel" required class="form-control" placeholder="0987 654 321">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>Email Nhận Báo Giá *</label>
+              <input type="email" required class="form-control" placeholder="hanhchinh@congty.com">
+            </div>
+
+            <div class="form-group">
+              <label>Nhu Cầu Mua Hàng Hoặc Danh Sách Cần Báo Giá</label>
+              <textarea rows="3" class="form-control" placeholder="Ví dụ: 30 thùng giấy Double A A4 80gsm, 50 bìa còng 7cm, 20 hộp bút bi..."></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">🚀 Gửi Yêu Cầu Nhận Báo Giá Sỉ</button>
+          </form>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© 2026 SmartDesk. Đối tác cung ứng văn phòng phẩm chuyên nghiệp.</p>
+      <p>Hotline B2B: 1900 1234 (Phím 2) | Email: b2b@smartdesk.vn</p>
+    </div>
+  </footer>
+
+</body>
+</html>
