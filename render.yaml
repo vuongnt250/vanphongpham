@@ -9,6 +9,9 @@ services:
     envVars:
       - key: NODE_VERSION
         value: 24.13.0
+      # Render dung bien nay trong luc build; giu devDependencies de Vite co mat.
+      - key: NODE_ENV
+        value: development
       - key: JWT_SECRET
         generateValue: true
       - key: CORS_ORIGIN
