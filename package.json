@@ -8,6 +8,7 @@
     "build": "vite build",
     "lint": "node cong_cu/kiem_tra_lint.js",
     "server": "node may_chu/app.js",
+    "start": "node may_chu/khoi_dong_san_xuat.js",
     "seed": "node co_so_du_lieu/khoi_tao_database.js",
     "test": "vitest run"
   },
@@ -21,6 +22,9 @@
   ],
   "author": "Nhóm 3 (Nguyễn Tiến Vương, Vũ Thị Vân, Trần Việt Quang)",
   "license": "ISC",
+  "engines": {
+    "node": ">=22.5.0"
+  },
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "cors": "^2.8.5",

@@ -79,6 +79,19 @@ app.get('/api/trang-thai', (req, res) => {
   });
 });
 
+// Khi chay production, Express phuc vu luon ban React da build.
+// Nhờ vậy giao dien va API cung mot domain, khong can proxy Vite.
+if (process.env.NODE_ENV === 'production') {
+  const thu_muc_giao_dien = path.join(__dirname, '../dist');
+  app.use(express.static(thu_muc_giao_dien));
+  app.get('*', (req, res, next) => {
+    if (req.path === '/api' || req.path.startsWith('/api/')) {
+      return next();
+    }
+    return res.sendFile(path.join(thu_muc_giao_dien, 'index.html'));
+  });
+}
+
 // Xu ly route khong ton tai
 app.use(xu_ly_duong_dan_khong_ton_tai);
 
