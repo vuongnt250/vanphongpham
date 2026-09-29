@@ -1,0 +1,43 @@
+{
+  "name": "smartdesk-nhom-3",
+  "version": "1.0.0",
+  "description": "Website Thương mại điện tử SmartDesk - Nhóm 3 Thực tập cơ sở",
+  "main": "may_chu/app.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "node cong_cu/kiem_tra_lint.js",
+    "server": "node may_chu/app.js",
+    "seed": "node co_so_du_lieu/khoi_tao_database.js",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "smartdesk",
+    "san_pham",
+    "gio_hang",
+    "don_hang",
+    "chatbot_ai",
+    "admin_dashboard"
+  ],
+  "author": "Nhóm 3 (Nguyễn Tiến Vương, Vũ Thị Vân, Trần Việt Quang)",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^8.7.0",
+    "jsonwebtoken": "^9.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "jsdom": "^26.0.0",
+    "supertest": "^7.0.0",
+    "vite": "^5.4.14",
+    "vitest": "^2.1.8"
+  }
+}

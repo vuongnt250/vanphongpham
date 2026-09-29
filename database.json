@@ -1,0 +1,1374 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Giấy in & Sản phẩm từ giấy",
+      "slug": "giay-in-san-pham-tu-giay",
+      "description": "Giấy in, sổ tay, giấy ghi chú và các sản phẩm từ giấy",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "name": "Dụng cụ viết, vẽ & Đánh dấu",
+      "slug": "dung-cu-viet-ve-danh-dau",
+      "description": "Bút viết, bút đánh dấu, tẩy, gọt và phụ kiện",
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "name": "File / Bìa hồ sơ & Lưu trữ",
+      "slug": "file-bia-ho-so-luu-tru",
+      "description": "File, bìa hồ sơ và sản phẩm lưu trữ tài liệu",
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "name": "Dụng cụ văn phòng cơ bản",
+      "slug": "dung-cu-van-phong-co-ban",
+      "description": "Kéo, băng keo, kim bấm, kẹp và dụng cụ văn phòng",
+      "status": "active"
+    },
+    {
+      "id": 5,
+      "name": "Thiết bị & Vật tư văn phòng điện tử",
+      "slug": "thiet-bi-vat-tu-dien-tu",
+      "description": "Máy tính, USB, pin, mực in và thiết bị văn phòng",
+      "status": "active"
+    },
+    {
+      "id": 6,
+      "name": "Vật dụng đóng gói & Vận chuyển",
+      "slug": "dong-goi-van-chuyen",
+      "description": "Bì thư, bubble wrap và dụng cụ đóng gói",
+      "status": "active"
+    },
+    {
+      "id": 7,
+      "name": "Tạp hóa & Vệ sinh văn phòng",
+      "slug": "tap-hoa-ve-sinh",
+      "description": "Đồ uống, bánh kẹo và vật dụng vệ sinh văn phòng",
+      "status": "active"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": 1,
+      "name": "Công ty Văn phòng phẩm Thiên Long",
+      "phone": "02838102212",
+      "email": "contact@thienlonggroup.com.vn",
+      "address": "TP. Hồ Chí Minh",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "name": "Nhà phân phối Double A Việt Nam",
+      "phone": "02437723388",
+      "email": "sales@doublea.vn",
+      "address": "Hà Nội",
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "name": "Nhà cung cấp Deli Việt Nam",
+      "phone": "02432001234",
+      "email": "sales@deli.vn",
+      "address": "Hà Nội",
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "name": "Công ty HP Việt Nam",
+      "phone": "1800588680",
+      "email": "support@hp.com",
+      "address": "Hà Nội",
+      "status": "active"
+    },
+    {
+      "id": 5,
+      "name": "Nhà phân phối văn phòng phẩm Minh Châu",
+      "phone": "0904123456",
+      "email": "minhchau.office@gmail.com",
+      "address": "Hà Nội",
+      "status": "active"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Quản trị viên",
+      "email": "admin@smartdesk.vn",
+      "password": "123456",
+      "phone": "0900000000",
+      "role": "admin",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "name": "Nguyễn Minh Anh",
+      "email": "minhanh@gmail.com",
+      "password": "123456",
+      "phone": "0912345678",
+      "role": "customer",
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "name": "Trần Hoàng Nam",
+      "email": "hoangnam@gmail.com",
+      "password": "123456",
+      "phone": "0987654321",
+      "role": "customer",
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "name": "Lê Thu Hà",
+      "email": "thuha@gmail.com",
+      "password": "123456",
+      "phone": "0934567890",
+      "role": "customer",
+      "status": "active"
+    }
+  ],
+  "addresses": [
+    {
+      "id": 1,
+      "userId": 2,
+      "receiverName": "Nguyễn Minh Anh",
+      "phone": "0912345678",
+      "address": "Cầu Giấy, Hà Nội",
+      "isDefault": true
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "receiverName": "Trần Hoàng Nam",
+      "phone": "0987654321",
+      "address": "Hà Đông, Hà Nội",
+      "isDefault": true
+    },
+    {
+      "id": 3,
+      "userId": 4,
+      "receiverName": "Lê Thu Hà",
+      "phone": "0934567890",
+      "address": "Đống Đa, Hà Nội",
+      "isDefault": true
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "supplierId": 2,
+      "name": "Giấy Double A A4 80gsm",
+      "price": 85000,
+      "originalPrice": 95000,
+      "stock": 150,
+      "sold": 76,
+      "unit": "Ram",
+      "brand": "Double A",
+      "description": "Giấy photocopy A4 80gsm chất lượng cao, trắng mịn, phù hợp in ấn và photocopy.",
+      "rating": 4.8,
+      "reviewCount": 80,
+      "status": "active",
+      "featured": true,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "supplierId": 2,
+      "name": "Giấy Double A A4 70gsm",
+      "price": 72000,
+      "originalPrice": 80000,
+      "stock": 120,
+      "sold": 130,
+      "unit": "Ram",
+      "brand": "Double A",
+      "description": "Giấy A4 định lượng 70gsm, phù hợp nhu cầu in ấn văn phòng hằng ngày.",
+      "rating": 4.7,
+      "reviewCount": 27,
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 3,
+      "categoryId": 1,
+      "supplierId": 2,
+      "name": "Giấy A3 80gsm",
+      "price": 145000,
+      "originalPrice": 160000,
+      "stock": 80,
+      "sold": 25,
+      "unit": "Ram",
+      "brand": "IK Plus",
+      "description": "Giấy A3 80gsm dùng cho máy in và photocopy.",
+      "rating": 4.6,
+      "reviewCount": 35,
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 4,
+      "categoryId": 1,
+      "supplierId": 3,
+      "name": "Sổ lò xo A5 200 trang",
+      "price": 45000,
+      "originalPrice": 52000,
+      "stock": 75,
+      "sold": 153,
+      "unit": "Quyển",
+      "brand": "Deli",
+      "description": "Sổ A5 bìa cứng, giấy dày, tiện ghi chép và học tập.",
+      "rating": 4.8,
+      "reviewCount": 13,
+      "status": "active",
+      "featured": true,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 5,
+      "categoryId": 1,
+      "supplierId": 3,
+      "name": "Sổ tay bìa da A5",
+      "price": 69000,
+      "originalPrice": 79000,
+      "stock": 60,
+      "sold": 133,
+      "unit": "Quyển",
+      "brand": "Deli",
+      "description": "Sổ tay bìa da phong cách tối giản, phù hợp học tập và công việc.",
+      "rating": 4.9,
+      "reviewCount": 58,
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 6,
+      "categoryId": 1,
+      "supplierId": 3,
+      "name": "Giấy note 4 màu 76x76mm",
+      "price": 18000,
+      "originalPrice": 22000,
+      "stock": 200,
+      "sold": 40,
+      "unit": "Xấp",
+      "brand": "Deli",
+      "description": "Giấy ghi chú 4 màu, keo dán chắc và dễ bóc.",
+      "rating": 4.7,
+      "reviewCount": 78,
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 7,
+      "categoryId": 1,
+      "supplierId": 5,
+      "name": "Giấy decal A4 20 tờ",
+      "price": 35000,
+      "originalPrice": 40000,
+      "stock": 90,
+      "sold": 155,
+      "unit": "Xấp",
+      "brand": "A-One",
+      "description": "Giấy decal A4 dùng in nhãn, tem và trang trí.",
+      "rating": 4.5,
+      "reviewCount": 56,
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 8,
+      "categoryId": 2,
+      "supplierId": 1,
+      "name": "Bút bi Thiên Long TL-027",
+      "price": 5000,
+      "originalPrice": 6000,
+      "stock": 500,
+      "sold": 158,
+      "unit": "Cây",
+      "brand": "Thiên Long",
+      "description": "Bút bi mực xanh, viết êm, phù hợp học tập và văn phòng.",
+      "rating": 4.8,
+      "reviewCount": 24,
+      "status": "active",
+      "featured": true,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 9,
+      "categoryId": 2,
+      "supplierId": 1,
+      "name": "Bút gel Thiên Long 0.5mm",
+      "price": 9000,
+      "originalPrice": 11000,
+      "stock": 350,
+      "sold": 30,
+      "unit": "Cây",
+      "brand": "Thiên Long",
+      "description": "Bút gel nét 0.5mm, mực đều và khô nhanh.",
+      "rating": 4.8,
+      "reviewCount": 19,
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 10,
+      "categoryId": 2,
+      "supplierId": 1,
+      "name": "Bút chì gỗ 2B",
+      "price": 5000,
+      "originalPrice": 7000,
+      "stock": 300,
+      "sold": 77,
+      "unit": "Cây",
+      "brand": "Thiên Long",
+      "description": "Bút chì gỗ 2B dễ viết và dễ tẩy.",
+      "rating": 4.7,
+      "reviewCount": 39,
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 11,
+      "categoryId": 2,
+      "supplierId": 3,
+      "name": "Bút chì bấm 0.5mm",
+      "price": 18000,
+      "originalPrice": 22000,
+      "stock": 180,
+      "sold": 57,
+      "unit": "Cây",
+      "brand": "Deli",
+      "description": "Bút chì bấm 0.5mm, thân chắc chắn và tiện dụng.",
+      "rating": 4.7,
+      "reviewCount": 14,
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 12,
+      "categoryId": 2,
+      "supplierId": 3,
+      "name": "Bộ bút highlight 6 màu",
+      "price": 42000,
+      "originalPrice": 49000,
+      "stock": 130,
+      "sold": 13,
+      "unit": "Bộ",
+      "brand": "Deli",
+      "description": "Bộ 6 bút nhớ dòng màu sắc nổi bật.",
+      "rating": 4.9,
+      "reviewCount": 54,
+      "status": "active",
+      "featured": true,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 13,
+      "categoryId": 2,
+      "supplierId": 1,
+      "name": "Bút lông dầu 2 đầu",
+      "price": 15000,
+      "originalPrice": 18000,
+      "stock": 160,
+      "sold": 68,
+      "unit": "Cây",
+      "brand": "Thiên Long",
+      "description": "Bút lông dầu 2 đầu dùng viết trên nhiều bề mặt.",
+      "rating": 4.6,
+      "reviewCount": 30,
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 14,
+      "categoryId": 2,
+      "supplierId": 3,
+      "name": "Bút xóa kéo 5mm",
+      "price": 12000,
+      "originalPrice": 15000,
+      "stock": 140,
+      "sold": 67,
+      "unit": "Cái",
+      "brand": "Deli",
+      "description": "Bút xóa kéo 5mm, kéo mượt và che phủ tốt.",
+      "rating": 4.7,
+      "reviewCount": 41,
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 15,
+      "categoryId": 2,
+      "supplierId": 1,
+      "name": "Cục tẩy trắng",
+      "price": 4000,
+      "originalPrice": 5000,
+      "stock": 400,
+      "sold": 98,
+      "unit": "Cục",
+      "brand": "Thiên Long",
+      "description": "Tẩy sạch, ít vụn, phù hợp bút chì.",
+      "rating": 4.8,
+      "reviewCount": 14,
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 16,
+      "categoryId": 3,
+      "supplierId": 3,
+      "name": "Bìa còng A4 7F",
+      "price": 55000,
+      "originalPrice": 65000,
+      "stock": 100,
+      "sold": 52,
+      "unit": "Cái",
+      "brand": "Deli",
+      "description": "Bìa còng A4 gáy 7F, phù hợp lưu trữ tài liệu số lượng lớn.",
+      "rating": 4.7,
+      "reviewCount": 64,
+      "status": "active",
+      "featured": true,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 17,
+      "categoryId": 3,
+      "supplierId": 3,
+      "name": "Bìa lá A4 100 cái",
+      "price": 65000,
+      "originalPrice": 75000,
+      "stock": 120,
+      "sold": 93,
+      "unit": "Túi",
+      "brand": "Deli",
+      "description": "Bìa lá trong suốt, đóng gói 100 cái.",
+      "rating": 4.8,
+      "reviewCount": 41,
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 18,
+      "categoryId": 3,
+      "supplierId": 1,
+      "name": "Bìa nút A4",
+      "price": 8000,
+      "originalPrice": 10000,
+      "stock": 250,
+      "sold": 107,
+      "unit": "Cái",
+      "brand": "Thiên Long",
+      "description": "Bìa nút A4 tiện lưu trữ tài liệu cá nhân.",
+      "rating": 4.6,
+      "reviewCount": 7,
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 19,
+      "categoryId": 3,
+      "supplierId": 3,
+      "name": "Bìa trình ký A4",
+      "price": 35000,
+      "originalPrice": 42000,
+      "stock": 100,
+      "sold": 177,
+      "unit": "Cái",
+      "brand": "Deli",
+      "description": "Bìa trình ký chắc chắn, phù hợp ký duyệt hồ sơ.",
+      "rating": 4.7,
+      "reviewCount": 49,
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 20,
+      "categoryId": 3,
+      "supplierId": 3,
+      "name": "Hộp đựng hồ sơ A4",
+      "price": 38000,
+      "originalPrice": 45000,
+      "stock": 80,
+      "sold": 51,
+      "unit": "Cái",
+      "brand": "Deli",
+      "description": "Hộp đựng hồ sơ giúp bảo quản tài liệu gọn gàng.",
+      "rating": 4.6,
+      "reviewCount": 11,
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 21,
+      "categoryId": 4,
+      "supplierId": 3,
+      "name": "Kéo văn phòng 18cm",
+      "price": 22000,
+      "originalPrice": 27000,
+      "stock": 140,
+      "sold": 96,
+      "unit": "Cái",
+      "brand": "Deli",
+      "description": "Kéo văn phòng lưỡi thép, cắt giấy sắc bén.",
+      "rating": 4.7,
+      "reviewCount": 79,
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 22,
+      "categoryId": 4,
+      "supplierId": 3,
+      "name": "Băng keo trong 48mm",
+      "price": 18000,
+      "originalPrice": 22000,
+      "stock": 200,
+      "sold": 152,
+      "unit": "Cuộn",
+      "brand": "Deli",
+      "description": "Băng keo trong bản lớn dùng đóng gói và văn phòng.",
+      "rating": 4.6,
+      "reviewCount": 31,
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 23,
+      "categoryId": 4,
+      "supplierId": 1,
+      "name": "Hồ dán nước 30ml",
+      "price": 8000,
+      "originalPrice": 10000,
+      "stock": 250,
+      "sold": 80,
+      "unit": "Chai",
+      "brand": "Thiên Long",
+      "description": "Keo nước tiện dụng, khô nhanh.",
+      "rating": 4.5,
+      "reviewCount": 47,
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 24,
+      "categoryId": 4,
+      "supplierId": 3,
+      "name": "Máy bấm kim Deli",
+      "price": 35000,
+      "originalPrice": 42000,
+      "stock": 100,
+      "sold": 84,
+      "unit": "Cái",
+      "brand": "Deli",
+      "description": "Máy bấm kim nhỏ gọn, bấm giấy nhẹ nhàng.",
+      "rating": 4.8,
+      "reviewCount": 41,
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 25,
+      "categoryId": 4,
+      "supplierId": 3,
+      "name": "Kim bấm số 10",
+      "price": 7000,
+      "originalPrice": 9000,
+      "stock": 300,
+      "sold": 67,
+      "unit": "Hộp",
+      "brand": "Deli",
+      "description": "Hộp kim bấm số 10 dùng cho máy bấm kim mini.",
+      "rating": 4.7,
+      "reviewCount": 10,
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 26,
+      "categoryId": 4,
+      "supplierId": 3,
+      "name": "Kẹp bướm 25mm hộp 12 cái",
+      "price": 15000,
+      "originalPrice": 18000,
+      "stock": 220,
+      "sold": 89,
+      "unit": "Hộp",
+      "brand": "Deli",
+      "description": "Kẹp bướm kim loại 25mm, chắc chắn và tái sử dụng.",
+      "rating": 4.8,
+      "reviewCount": 64,
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 27,
+      "categoryId": 4,
+      "supplierId": 3,
+      "name": "Đục lỗ giấy 2 lỗ",
+      "price": 28000,
+      "originalPrice": 35000,
+      "stock": 90,
+      "sold": 88,
+      "unit": "Cái",
+      "brand": "Deli",
+      "description": "Dụng cụ đục 2 lỗ cho tài liệu A4.",
+      "rating": 4.6,
+      "reviewCount": 33,
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 28,
+      "categoryId": 5,
+      "supplierId": 5,
+      "name": "Máy tính Casio FX-580VN X",
+      "price": 680000,
+      "originalPrice": 720000,
+      "stock": 35,
+      "sold": 28,
+      "unit": "Cái",
+      "brand": "Casio",
+      "description": "Máy tính khoa học phù hợp học sinh, sinh viên.",
+      "rating": 4.9,
+      "reviewCount": 10,
+      "status": "active",
+      "featured": true,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 29,
+      "categoryId": 5,
+      "supplierId": 5,
+      "name": "USB 64GB",
+      "price": 125000,
+      "originalPrice": 145000,
+      "stock": 70,
+      "sold": 144,
+      "unit": "Cái",
+      "brand": "Kingston",
+      "description": "USB 64GB tốc độ ổn định, nhỏ gọn.",
+      "rating": 4.7,
+      "reviewCount": 16,
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 30,
+      "categoryId": 5,
+      "supplierId": 5,
+      "name": "Pin AA 4 viên",
+      "price": 30000,
+      "originalPrice": 35000,
+      "stock": 150,
+      "sold": 129,
+      "unit": "Vỉ",
+      "brand": "Panasonic",
+      "description": "Pin AA dùng cho thiết bị văn phòng và điện tử.",
+      "rating": 4.7,
+      "reviewCount": 11,
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 31,
+      "categoryId": 5,
+      "supplierId": 4,
+      "name": "Mực in LaserJet đen",
+      "price": 390000,
+      "originalPrice": 430000,
+      "stock": 45,
+      "sold": 29,
+      "unit": "Hộp",
+      "brand": "HP",
+      "description": "Mực in laser đen cho nhu cầu in ấn văn phòng.",
+      "rating": 4.6,
+      "reviewCount": 14,
+      "status": "active",
+      "featured": true,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 32,
+      "categoryId": 5,
+      "supplierId": 3,
+      "name": "Máy ép plastic A4",
+      "price": 750000,
+      "originalPrice": 820000,
+      "stock": 20,
+      "sold": 65,
+      "unit": "Cái",
+      "brand": "Deli",
+      "description": "Máy ép plastic A4 dùng bảo quản tài liệu.",
+      "rating": 4.5,
+      "reviewCount": 28,
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 33,
+      "categoryId": 6,
+      "supplierId": 3,
+      "name": "Bì thư A4 10 cái",
+      "price": 18000,
+      "originalPrice": 22000,
+      "stock": 250,
+      "sold": 163,
+      "unit": "Túi",
+      "brand": "Deli",
+      "description": "Bì thư A4 tiện gửi hồ sơ và tài liệu.",
+      "rating": 4.6,
+      "reviewCount": 52,
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 34,
+      "categoryId": 6,
+      "supplierId": 5,
+      "name": "Màng xốp nổ Bubble Wrap",
+      "price": 45000,
+      "originalPrice": 55000,
+      "stock": 100,
+      "sold": 109,
+      "unit": "Cuộn",
+      "brand": "Minh Châu",
+      "description": "Màng xốp nổ bảo vệ sản phẩm khi vận chuyển.",
+      "rating": 4.7,
+      "reviewCount": 62,
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 35,
+      "categoryId": 6,
+      "supplierId": 5,
+      "name": "Dây rút nhựa 100 cái",
+      "price": 25000,
+      "originalPrice": 30000,
+      "stock": 180,
+      "sold": 140,
+      "unit": "Túi",
+      "brand": "Minh Châu",
+      "description": "Dây rút nhựa dùng đóng gói và cố định hàng hóa.",
+      "rating": 4.5,
+      "reviewCount": 46,
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 36,
+      "categoryId": 6,
+      "supplierId": 3,
+      "name": "Cắt băng keo cầm tay",
+      "price": 65000,
+      "originalPrice": 75000,
+      "stock": 60,
+      "sold": 77,
+      "unit": "Cái",
+      "brand": "Deli",
+      "description": "Dụng cụ cắt băng keo cầm tay tiện lợi.",
+      "rating": 4.6,
+      "reviewCount": 20,
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 37,
+      "categoryId": 7,
+      "supplierId": 5,
+      "name": "Khăn giấy hộp 180 tờ",
+      "price": 28000,
+      "originalPrice": 32000,
+      "stock": 180,
+      "sold": 92,
+      "unit": "Hộp",
+      "brand": "Pulppy",
+      "description": "Khăn giấy mềm, phù hợp sử dụng tại văn phòng.",
+      "rating": 4.7,
+      "reviewCount": 11,
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 38,
+      "categoryId": 7,
+      "supplierId": 5,
+      "name": "Nước rửa tay 500ml",
+      "price": 45000,
+      "originalPrice": 52000,
+      "stock": 120,
+      "sold": 21,
+      "unit": "Chai",
+      "brand": "Lifebuoy",
+      "description": "Dung dịch rửa tay làm sạch và tiện dụng.",
+      "rating": 4.7,
+      "reviewCount": 78,
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 39,
+      "categoryId": 7,
+      "supplierId": 5,
+      "name": "Túi rác đen cuộn",
+      "price": 25000,
+      "originalPrice": 30000,
+      "stock": 150,
+      "sold": 21,
+      "unit": "Cuộn",
+      "brand": "Minh Châu",
+      "description": "Túi rác chắc chắn dùng cho văn phòng.",
+      "rating": 4.5,
+      "reviewCount": 10,
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 40,
+      "categoryId": 7,
+      "supplierId": 5,
+      "name": "Cà phê hòa tan hộp 20 gói",
+      "price": 78000,
+      "originalPrice": 85000,
+      "stock": 90,
+      "sold": 43,
+      "unit": "Hộp",
+      "brand": "Nescafé",
+      "description": "Cà phê hòa tan tiện dụng cho văn phòng.",
+      "rating": 4.8,
+      "reviewCount": 76,
+      "status": "active",
+      "featured": false,
+      "createdAt": "2026-08-01"
+    }
+  ],
+  "productImages": [
+    {
+      "id": 1,
+      "productId": 1,
+      "image": "/images/products/product-1.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 2,
+      "productId": 2,
+      "image": "/images/products/product-2.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 3,
+      "productId": 3,
+      "image": "/images/products/product-3.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 4,
+      "productId": 4,
+      "image": "/images/products/product-4.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 5,
+      "productId": 5,
+      "image": "/images/products/product-5.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 6,
+      "productId": 6,
+      "image": "/images/products/product-6.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 7,
+      "productId": 7,
+      "image": "/images/products/product-7.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 8,
+      "productId": 8,
+      "image": "/images/products/product-8.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 9,
+      "productId": 9,
+      "image": "/images/products/product-9.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 10,
+      "productId": 10,
+      "image": "/images/products/product-10.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 11,
+      "productId": 11,
+      "image": "/images/products/product-11.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 12,
+      "productId": 12,
+      "image": "/images/products/product-12.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 13,
+      "productId": 13,
+      "image": "/images/products/product-13.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 14,
+      "productId": 14,
+      "image": "/images/products/product-14.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 15,
+      "productId": 15,
+      "image": "/images/products/product-15.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 16,
+      "productId": 16,
+      "image": "/images/products/product-16.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 17,
+      "productId": 17,
+      "image": "/images/products/product-17.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 18,
+      "productId": 18,
+      "image": "/images/products/product-18.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 19,
+      "productId": 19,
+      "image": "/images/products/product-19.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 20,
+      "productId": 20,
+      "image": "/images/products/product-20.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 21,
+      "productId": 21,
+      "image": "/images/products/product-21.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 22,
+      "productId": 22,
+      "image": "/images/products/product-22.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 23,
+      "productId": 23,
+      "image": "/images/products/product-23.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 24,
+      "productId": 24,
+      "image": "/images/products/product-24.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 25,
+      "productId": 25,
+      "image": "/images/products/product-25.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 26,
+      "productId": 26,
+      "image": "/images/products/product-26.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 27,
+      "productId": 27,
+      "image": "/images/products/product-27.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 28,
+      "productId": 28,
+      "image": "/images/products/product-28.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 29,
+      "productId": 29,
+      "image": "/images/products/product-29.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 30,
+      "productId": 30,
+      "image": "/images/products/product-30.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 31,
+      "productId": 31,
+      "image": "/images/products/product-31.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 32,
+      "productId": 32,
+      "image": "/images/products/product-32.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 33,
+      "productId": 33,
+      "image": "/images/products/product-33.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 34,
+      "productId": 34,
+      "image": "/images/products/product-34.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 35,
+      "productId": 35,
+      "image": "/images/products/product-35.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 36,
+      "productId": 36,
+      "image": "/images/products/product-36.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 37,
+      "productId": 37,
+      "image": "/images/products/product-37.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 38,
+      "productId": 38,
+      "image": "/images/products/product-38.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 39,
+      "productId": 39,
+      "image": "/images/products/product-39.jpg",
+      "isPrimary": true
+    },
+    {
+      "id": 40,
+      "productId": 40,
+      "image": "/images/products/product-40.jpg",
+      "isPrimary": true
+    }
+  ],
+  "carts": [
+    {
+      "id": 1,
+      "userId": 2,
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "userId": 4,
+      "status": "active"
+    }
+  ],
+  "cartItems": [
+    {
+      "id": 1,
+      "cartId": 1,
+      "productId": 8,
+      "quantity": 3
+    },
+    {
+      "id": 2,
+      "cartId": 1,
+      "productId": 12,
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "cartId": 2,
+      "productId": 1,
+      "quantity": 2
+    }
+  ],
+  "favorites": [
+    {
+      "id": 1,
+      "userId": 2,
+      "productId": 28
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "productId": 12
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "productId": 1
+    }
+  ],
+  "orders": [
+    {
+      "id": 1001,
+      "userId": 2,
+      "addressId": 1,
+      "couponId": 1,
+      "total": 162000,
+      "shippingFee": 30000,
+      "discount": 18000,
+      "finalTotal": 174000,
+      "status": "delivered",
+      "paymentStatus": "paid",
+      "createdAt": "2026-08-20"
+    },
+    {
+      "id": 1002,
+      "userId": 3,
+      "addressId": 2,
+      "couponId": null,
+      "total": 170000,
+      "shippingFee": 30000,
+      "discount": 0,
+      "finalTotal": 200000,
+      "status": "shipping",
+      "paymentStatus": "paid",
+      "createdAt": "2026-08-28"
+    }
+  ],
+  "orderItems": [
+    {
+      "id": 1,
+      "orderId": 1001,
+      "productId": 1,
+      "quantity": 1,
+      "price": 85000
+    },
+    {
+      "id": 2,
+      "orderId": 1001,
+      "productId": 8,
+      "quantity": 10,
+      "price": 5000
+    },
+    {
+      "id": 3,
+      "orderId": 1002,
+      "productId": 4,
+      "quantity": 2,
+      "price": 45000
+    },
+    {
+      "id": 4,
+      "orderId": 1002,
+      "productId": 12,
+      "quantity": 2,
+      "price": 40000
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "orderId": 1001,
+      "method": "COD",
+      "amount": 174000,
+      "status": "paid",
+      "paidAt": "2026-08-20"
+    },
+    {
+      "id": 2,
+      "orderId": 1002,
+      "method": "banking",
+      "amount": 200000,
+      "status": "paid",
+      "paidAt": "2026-08-28"
+    }
+  ],
+  "coupons": [
+    {
+      "id": 1,
+      "code": "WELCOME10",
+      "name": "Giảm 10% khách hàng mới",
+      "type": "percent",
+      "value": 10,
+      "minOrder": 100000,
+      "maxDiscount": 30000,
+      "quantity": 100,
+      "used": 0,
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "code": "SMART20K",
+      "name": "Giảm 20.000đ",
+      "type": "fixed",
+      "value": 20000,
+      "minOrder": 200000,
+      "maxDiscount": 20000,
+      "quantity": 50,
+      "used": 0,
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "code": "STUDENT15",
+      "name": "Ưu đãi sinh viên 15%",
+      "type": "percent",
+      "value": 15,
+      "minOrder": 150000,
+      "maxDiscount": 40000,
+      "quantity": 80,
+      "used": 0,
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "status": "active"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "productId": 1,
+      "userId": 2,
+      "orderId": 1001,
+      "rating": 5,
+      "comment": "Giấy đẹp, in rất rõ và ít kẹt giấy.",
+      "status": "approved",
+      "createdAt": "2026-08-23"
+    },
+    {
+      "id": 2,
+      "productId": 8,
+      "userId": 2,
+      "orderId": 1001,
+      "rating": 5,
+      "comment": "Bút viết êm, mực đều.",
+      "status": "approved",
+      "createdAt": "2026-08-23"
+    },
+    {
+      "id": 3,
+      "productId": 4,
+      "userId": 3,
+      "orderId": 1002,
+      "rating": 4,
+      "comment": "Sổ đẹp, giấy khá dày.",
+      "status": "approved",
+      "createdAt": "2026-08-30"
+    }
+  ],
+  "banners": [
+    {
+      "id": 1,
+      "title": "SmartDesk - Văn phòng phẩm cho mọi nhu cầu",
+      "image": "/images/banners/banner1.jpg",
+      "link": "/shop",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "title": "Ưu đãi dụng cụ học tập",
+      "image": "/images/banners/banner2.jpg",
+      "link": "/shop?category=2",
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "title": "Combo tiết kiệm cho văn phòng",
+      "image": "/images/banners/banner3.jpg",
+      "link": "/shop",
+      "status": "active"
+    }
+  ],
+  "settings": [
+    {
+      "id": 1,
+      "key": "storeName",
+      "value": "SmartDesk"
+    },
+    {
+      "id": 2,
+      "key": "storeEmail",
+      "value": "support@smartdesk.vn"
+    },
+    {
+      "id": 3,
+      "key": "shippingFee",
+      "value": "30000"
+    },
+    {
+      "id": 4,
+      "key": "freeShippingFrom",
+      "value": "500000"
+    }
+  ]
+}
